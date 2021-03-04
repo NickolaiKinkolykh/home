@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Desktop Checkout for Guest User - Feature 1 #1
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 93.394 s - in Desktop Checkout for Guest User - Feature 1 #1

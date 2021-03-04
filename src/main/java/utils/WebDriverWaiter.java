@@ -1,0 +1,15 @@
+package utils;
+
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static driver.ConfigurationService.getTestProperty;
+import static driver.SingletonDriver.getDriver;
+
+public class WebDriverWaiter {
+
+    protected WebDriverWait wait;
+    int time = Integer.parseInt(getTestProperty("implicit.wait"));
+    public WebDriverWaiter() {
+        wait = new WebDriverWait(getDriver(), time);
+    }
+}
