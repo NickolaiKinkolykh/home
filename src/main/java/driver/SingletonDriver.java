@@ -20,7 +20,7 @@ public class SingletonDriver {
 
         switch (browser) {
             case "Chrome":
-                WebDriverManager.chromedriver().browserVersion("88.0.4324.104").setup();
+                WebDriverManager.chromedriver().browserVersion("89.0.4389.82").setup();
                 return new ChromeDriver(getChromeOptions());
             case "Firefox":
                 WebDriverManager.firefoxdriver().browserVersion("78.7.0esr").setup();
